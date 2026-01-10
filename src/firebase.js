@@ -8,12 +8,13 @@ import {
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: "",
+   apiKey: "AIzaSyB25BZekGKsyQs4CqUiiWHqA3CbHgoSuuY",
+            authDomain: "dehat-mall.firebaseapp.com",
+            projectId: "dehat-mall",
+            storageBucket: "dehat-mall.firebasestorage.app",
+            messagingSenderId: "764224458925",
+            appId: "1:764224458925:web:1f92f15f36e87f7ac73624",
+            measurementId: "G-7S4FMKFR48"
 };
 
 const firebaseApp = !getApps().length

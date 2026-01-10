@@ -8,13 +8,13 @@ import {
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-   apiKey: "AIzaSyB25BZekGKsyQs4CqUiiWHqA3CbHgoSuuY",
-            authDomain: "dehat-mall.firebaseapp.com",
-            projectId: "dehat-mall",
-            storageBucket: "dehat-mall.firebasestorage.app",
-            messagingSenderId: "764224458925",
-            appId: "1:764224458925:web:1f92f15f36e87f7ac73624",
-            measurementId: "G-7S4FMKFR48"
+   apiKey: "AIzaSyAVFd8_6NSn5UTrxlc54iXDSDbNIvAC3vE",
+  authDomain: "naturalganic.firebaseapp.com",
+  projectId: "naturalganic",
+  storageBucket: "naturalganic.appspot.com",
+  messagingSenderId: "414638876211",
+  appId: "1:414638876211:web:b156e1289a297138c3a546",
+  measurementId: "G-8PT7CDXR0L"
 };
 
 const firebaseApp = !getApps().length
@@ -45,7 +45,7 @@ export const fetchToken = async (setTokenFound, setFcmToken) => {
 
     const currentToken = await getToken(messaging, {
       vapidKey:
-        "",
+        "BEfgmtG4aHwe0LVH-ah-1jJ59uKGicOrs9bkLAndg2E6S2wf86E4LxStO6xW8we0JXIk5D4VTevmoWuc_5t-TaU",
     });
 
     if (currentToken) {
